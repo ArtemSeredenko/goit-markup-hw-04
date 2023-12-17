@@ -135,6 +135,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 150ms ease-in-out 0ms;
 }
 
 .top-menu-address-link:hover,
@@ -189,6 +190,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.04em;
   margin: 0 auto;
+  transition: background-color 150ms ease-in-out 0ms;
 }
 
 .hero-button:hover,
@@ -466,4 +468,8 @@ h3 {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   margin-bottom: 16px;
+}
+
+.active {
+  color: #404bbf;
 }
