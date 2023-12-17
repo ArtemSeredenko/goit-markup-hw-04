@@ -1,4 +1,4 @@
-/* Global styles */
+/*  #region Global styles */
 /* Глобальний border-box. У нормалізаторі modern-normalize за умовчанням задано глобальний border-box. box-sizing можна не вказувати. */
 *,
 *::before,
@@ -73,7 +73,8 @@ img {
   padding-bottom: 120px;
 }
 
-/* Logo */
+/* #endregion */
+/* #region Logo */
 .header .logo {
   display: inline-flex;
   align-items: center;
@@ -99,7 +100,8 @@ img {
   color: #f4f4fd;
 }
 
-/* Header */
+/* #endregion */
+/* #region Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -170,7 +172,8 @@ img {
   background: #404bbf;
 }
 
-/* Hero */
+/* #endregion */
+/* #region Hero */
 .hero {
   padding: 188px 0;
   background-image: linear-gradient(
@@ -224,7 +227,8 @@ img {
   background-color: #404bbf;
 }
 
-/* Formatting for h2 */
+/* #endregion */
+/* #region Formatting for h2 */
 .principle-title,
 .team-title,
 .portfolio-title {
@@ -237,7 +241,8 @@ img {
   margin-bottom: 72px;
 }
 
-/* Formatting for h3 */
+/* #endregion */
+/* #region Formatting for h3 */
 .principle-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
@@ -248,7 +253,8 @@ img {
   color: #2e2f42;
 }
 
-/* Principle */
+/* #endregion */
+/* #region Principle */
 .principle-list {
   display: flex;
   gap: 24px;
@@ -275,7 +281,8 @@ img {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-/* Team */
+/* #endregion */
+/* #region Team */
 .team {
   background-color: #f4f4fd;
 }
@@ -351,7 +358,8 @@ img {
   background-color: #404bbf;
 }
 
-/* Portfolio */
+/* #endregion */
+/* #region Portfolio */
 .team-item,
 .portfolio-item {
   background-color: #ffffff;
@@ -411,7 +419,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Footer */
+/* #endregion */
+/* #region Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -462,3 +471,5 @@ img {
 .footer-list .icon-item:focus {
   background-color: #31d0aa;
 }
+
+/* #endregion */
